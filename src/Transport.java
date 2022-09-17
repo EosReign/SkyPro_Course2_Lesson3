@@ -1,4 +1,4 @@
-abstract class Transport {
+public abstract class Transport {
     private String modelName;
     private int wheelsCount;
     public Transport(String modelName, int wheelsCount) {
@@ -6,6 +6,9 @@ abstract class Transport {
         this.wheelsCount = wheelsCount;
     }
 
+    public void service() {
+
+    }
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }

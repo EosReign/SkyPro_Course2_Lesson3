@@ -5,5 +5,13 @@ public class Car extends Transport {
     public void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
+
+    @Override
+    public void service() {
+        System.out.println("Идет обслуживание машины");
+        updateTyre();
+        checkEngine();
+        System.out.println();
+    }
 }
 //..
