@@ -6,3 +6,4 @@ public class Truck extends Car{
         System.out.println("Проверяем прицеп");
     }
 }
+//..

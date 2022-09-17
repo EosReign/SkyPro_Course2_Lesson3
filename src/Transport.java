@@ -25,3 +25,4 @@ abstract class Transport {
         this.wheelsCount = wheelsCount;
     }
 }
+//..
