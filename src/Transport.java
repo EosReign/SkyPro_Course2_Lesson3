@@ -1,4 +1,6 @@
-abstract class Transport {
+import java.security.Provider;
+
+public abstract class Transport implements ServiceStation {
     private String modelName;
     private int wheelsCount;
     public Transport(String modelName, int wheelsCount) {
@@ -25,3 +27,4 @@ abstract class Transport {
         this.wheelsCount = wheelsCount;
     }
 }
+//..
